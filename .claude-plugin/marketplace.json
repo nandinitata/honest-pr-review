@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "nandinitata-skills",
+  "description": "Claude Code skills by Sai Nandini Tata.",
+  "owner": {
+    "name": "Sai Nandini Tata"
+  },
+  "plugins": [
+    {
+      "name": "honest-pr-review",
+      "description": "Reviews a coding agent's pull request for reward-hacking shortcuts and fixes them back to a minimal, honest change.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Sai Nandini Tata"
+      },
+      "source": "./",
+      "category": "development",
+      "strict": false
+    }
+  ]
+}
